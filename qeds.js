@@ -10,9 +10,9 @@ const notify = $.isNode() ? require('./sendNotify') : '';
 // 公共变量
 const qqreadurl = 'https://mqqapi.reader.qq.com/mqq/user/init'
 // 以下需修改
-const qqreadheader= ''
-const qqreadtimeurl = ''
-const qqreadtimeheader= ''
+const qqreadheader= '{"ywsession":"lsxl2j4vh463h8ne6v9czxocjgtfxkyk","Cookie":"ywguid=705470052;ywkey=ywYFfiF7nznS;platform=ios;channel=mqqmina;mpVersion=0.29.4","Connection":"keep-alive","Content-Type":"application/json","Accept":"*/*","Host":"mqqapi.reader.qq.com","User-Agent":"QQ/8.4.17.638 CFNetwork/1121.2.2 Darwin/19.2.0","Referer":"https://appservice.qq.com/1110657249/0.29.4/page-frame.html","Accept-Language":"zh-cn","Accept-Encoding":"gzip, deflate, br","mpversion":"0.29.4"}'
+const qqreadtimeurl = 'https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=2016&refer=-1&bid=13496378&readTime=2822&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%225%22%3A%7B%22readTime%22%3A2822%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1'
+const qqreadtimeheader= '{"ywsession":"lsxl2j4vh463h8ne6v9czxocjgtfxkyk","Cookie":"ywguid=705470052;ywkey=ywYFfiF7nznS;platform=ios;channel=mqqmina;mpVersion=0.29.4;qq_ver=8.4.17;os_ver=iOS 13.3;mpos_ver=1.21.0;platform=ios;openid=9F1299B5D43EBBDFD232775A6A696123","Connection":"keep-alive","Content-Type":"application/json","Accept":"*/*","Host":"mqqapi.reader.qq.com","User-Agent":"QQ/8.4.17.638 CFNetwork/1121.2.2 Darwin/19.2.0","Referer":"https://appservice.qq.com/1110657249/0.29.4/page-frame.html","Accept-Language":"zh-cn","Accept-Encoding":"gzip, deflate, br","mpversion":"0.29.4"}'
 // 以上需修改
 const SEND_KEY = ''
 
