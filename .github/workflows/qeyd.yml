@@ -30,7 +30,7 @@ jobs:
                   npm install
             - name: "运行 【企鹅阅读11】"
               run: |
-                  node Scripts/qeyd_replace.js
+                  node qeyd_replace.js
               env:
                   PUSH_KEY: ${{ secrets.PUSH_KEY }}
                   BARK_PUSH: ${{ secrets.BARK_PUSH }}
